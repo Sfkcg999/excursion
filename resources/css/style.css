@@ -18,6 +18,13 @@ body{
 
 }
 
+.dwnld-lnk-2-cont {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
 .header {
     color: white;
     font-family: Verdana;
@@ -28,4 +35,65 @@ body{
 
 .dwnld-lnk:hover {
     color: blue;
+}
+
+
+.phone {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 2rem;
+    width: auto;
+    height: 30rem;
+}
+
+.description {
+    color: white;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 2.625rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.above-lndpic {
+    color: grey;
+    font-family: Verdana;
+    font-size: 1.3125rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.lndpic {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 2rem;
+    width: auto;
+    height: 30rem;
+}
+
+.phone-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.coming-soon {
+    color: white;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 2.625rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer {
+    text-align: right;
+}
+
+.footer-text {
+    color: grey;
 }
